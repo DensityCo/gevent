@@ -25,7 +25,7 @@ from _setuputils import should_embed
 from _setuputils import get_include_dirs
 
 
-LIBEV_EMBED = should_embed('libev')
+LIBEV_EMBED = 0
 
 # Configure libev in place
 libev_configure_command = ' '.join([
